@@ -110,7 +110,7 @@ onUnmounted(() => {
       </div>
 
       <!-- 倒计时展示 -->
-      <p>距离全绿还剩：{{ formatTime(timeToAllGreen) }}</p>
+      <p>距离全绿还有：{{ formatTime(timeToAllGreen) }}</p>
       <p>距离全红还剩：{{ formatTime(timeToFullRed) }}</p>
 
       <button @click="getExhangInitDate">刷新初始时间</button>
