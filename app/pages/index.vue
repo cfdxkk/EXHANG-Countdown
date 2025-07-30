@@ -158,11 +158,18 @@
 
   .countdonw-text-container {
     margin-top: 50px;
-    width: 400px;
+    width: 380px;
     color: #888888FF;
 
     display: flex;
     justify-content: space-between;
+  }
+  @media (orientation: portrait) {
+    .countdonw-text-container {
+      width: 200px;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   .made-by-community-image {
@@ -174,19 +181,39 @@
     opacity: 0.2;
     transition: all 0.8s ease-in-out;
   }
+
+  .license-text {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+
+    font-size: 13px;
+
+    opacity: 0.3;
+    transition: all 0.8s ease-in-out;
+  }
+  .license-text:hover {
+    opacity: 0.8;
+  }
   
   .about-me-text {
     position: absolute;
     bottom: 10px;
     right: 20px;
 
-    font-size: 15px;
+    font-size: 13px;
 
-    opacity: 0.2;
+    opacity: 0.3;
     transition: all 0.8s ease-in-out;
   }
   .about-me-text:hover {
-    opacity: 0.5;
+    opacity: 0.8;
+  }
+
+  @media (orientation: portrait) {
+    .inspired-by-text {
+      display: none;
+    }
   }
 </style>
 
@@ -218,6 +245,7 @@
       <p>正在等待新版本的行政机库初始时间数据...</p>
     </div>
     <img class="made-by-community-image" src="/made-by-community.png" alt="Made By Starcitizen Community." />
-    <div class="about-me-text">Powered by 02, inspired by <a href="https://contestedzonetimers.com/" target="_blank">contestedzonetimers.com</a></div>
+    <div class="license-text"><a href="https://github.com/cfdxkk/EXHANG-Countdown" target="_blank">Source Code</a> License by GLWTPL</div>
+    <div class="about-me-text">Powered by 02<span class="inspired-by-text">, inspired by <a href="https://contestedzonetimers.com/" target="_blank">contestedzonetimers.com</a></span></div>
   </div>
 </template>
