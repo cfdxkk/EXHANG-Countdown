@@ -4,7 +4,7 @@
 PYAM EXHANG Countdown for StarCitizen. You can visit it at this [website](https://exhang-countdown.vercel.app/).  
 对于中国大陆用户，可以通过该 [网址](https://exhang-countdown.zerotwo.love/) 访问。
 
-## Reporting Discrepancies
+## Joint maintenance
 The countdown for the PYAM Executive Hangars operates on a fixed and repeating cycle. This means that once we record the timestamp of a bulbs color change, we can accurately predict every future opening and closing time of the hangars.
 
 To achieve this, the simplest solution is to visit the Executive Hangars in person and record the time when the bulbs change colors. However, this brings a challenge: after a new game version is released, the countdown cannot be updated immediately!
