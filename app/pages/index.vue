@@ -1,5 +1,7 @@
 <script setup lang="ts">
-  import { ref, onMounted, onUnmounted } from 'vue'
+  useHead({
+    title: 'EXHANG Countdown'
+  })
 
   /** 存储后端返回的原始时间戳字符串 **/
   const exhangInitDate = ref<string>('')
