@@ -1,7 +1,7 @@
 <img width="1144" height="122" alt="image" src="https://github.com/user-attachments/assets/ae8eec62-52f4-4b63-87cc-9998a0bc1ea3" />
 
 # EXHANG Countdown
-PYAM EXHANG Countdown for StarCitizen. You can visit it at this [website](https://exhang-countdown.vercel.app/).  
+PYAM EXHANG Countdown tool for StarCitizen. You can visit it at this [website](https://exhang-countdown.vercel.app/).  
 对于中国大陆用户，可以通过该 [网址](https://exhang-countdown.zerotwo.love/) 访问。
 
 ## Joint maintenance
