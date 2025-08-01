@@ -112,14 +112,13 @@ paths:
         - EXHANG
 ```
 
-
 ## Development
 First, make sure to install dependencies:
 ```bash
 # Only need to run for the first time.
 pnpm install
 ```
-Then, start the development server:
+Then, running the development server:
 
 ```bash
 pnpm run dev
