@@ -236,8 +236,8 @@
 
       <!-- 倒计时展示 -->
       <div class="countdonw-text-container">
-        <div class="countdonw-text">下一次全部绿灯 {{ formatTime(timeToAllGreen) }} </div>
-        <div>下一次全部红灯 {{ formatTime(timeToFullRed) }}</div>
+        <div>距离全绿还有 {{ formatTime(timeToAllGreen) }} </div>
+        <div>距离全红还剩 {{ formatTime(timeToFullRed) }}</div>
       </div>
 
     </div>
@@ -245,7 +245,7 @@
       <p>正在等待新版本的行政机库初始时间数据...</p>
     </div>
     <img class="made-by-community-image" src="/made-by-community.png" alt="Made By Starcitizen Community." />
-    <div class="license-text"><a href="https://github.com/cfdxkk/EXHANG-Countdown" target="_blank">Source Code</a> License by GLWTPL</div>
+    <div class="license-text"><a href="https://github.com/cfdxkk/EXHANG-Countdown" target="_blank">Source Code</a> is licensed by GLWTPL</div>
     <div class="about-me-text">Powered by 02<span class="inspired-by-text">, inspired by <a href="https://contestedzonetimers.com/" target="_blank">contestedzonetimers.com</a></span></div>
   </div>
 </template>
