@@ -146,3 +146,6 @@ Special thanks: [xkeyC](https://github.com/xkeyC)
 [![](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![](https://img.shields.io/badge/-CSS-663399?style=flat-square&logo=css&logoColor=white)](https://www.w3.org/Style/CSS/)
 [![](https://img.shields.io/badge/-Nuxt-000000?style=flat-square&logo=nuxt&logoColor=#00dc82)](https://nuxt.com/)
+
+<img alt="starcitizen-and-made-by-community-logo" src="https://github.com/user-attachments/assets/c599e4a5-cf81-4369-858b-df65b293af47" width="200px" style="margin-top: 20px; border-radius: 10px 10px" />
+
