@@ -67,6 +67,48 @@ Pyro의 Executive Hangars 카운트다운은 고정된 주기를 기반으로 �
 Огромное спасибо за вашу помощь!
 </details>
 
+## API
+The program exposes with a `GET` API for use by third-party apps.
+
+``` yaml
+openapi: 3.0.3
+info:
+  title: EXHANG Init Date API
+  version: 1.0.0
+  description: Returns the EXHANG red-light phase start timestamp for the current Star Citizen version.
+
+paths:
+  /api/exhang/init-data:
+    get:
+      summary: Get EXHANG init timestamp
+      description: Always returns HTTP 200 with a success flag and optional timestamp or error.
+      responses:
+        '200':
+          description: Result object
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                  - success
+                  - isMessingStarCitizenVersion
+                properties:
+                  success:
+                    type: boolean
+                  exhangInitDate:
+                    type: string
+                    format: date-time
+                    description: Present if success is true
+                  errorMessage:
+                    type: string
+                    description: Present if success is false
+                  isMessingStarCitizenVersion:
+                    type: boolean
+      tags:
+        - EXHANG
+```
+
+
 ## Development
 First, make sure to install dependencies:
 ```bash
