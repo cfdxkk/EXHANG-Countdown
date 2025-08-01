@@ -1,4 +1,4 @@
-<img width="1114" height="335" alt="image" src="https://github.com/user-attachments/assets/a1ead30a-ab63-4898-99c7-fab533fee29b" />
+<img width="1144" height="122" alt="image" src="https://github.com/user-attachments/assets/ae8eec62-52f4-4b63-87cc-9998a0bc1ea3" />
 
 # EXHANG Countdown
 PYAM EXHANG Countdown for StarCitizen. You can visit it at this [website](https://exhang-countdown.vercel.app/).  
